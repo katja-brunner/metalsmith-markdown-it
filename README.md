@@ -46,7 +46,7 @@ Please refer to [markdown-it](https://github.com/markdown-it/markdown-it/) for s
 
 Pass `options` to the metalsmith-markdown-it plugin as you would pass them to [markdown-it](https://github.com/markdown-it/markdown-it/). 
 
-Add another key `plugins` to the `options`. Require the [markdown-it-plugins](https://www.npmjs.com/browse/keyword/markdown-it-plugin) you want to use and push them to the `plugins` `Array`. If you have `options` for a plugin, add this plugin followed by its `options` to another `Array` as you would pass them to the original markdown-it plugin. 
+Add another key `plugins` to the `options`. Require the [markdown-it plugins](https://www.npmjs.com/browse/keyword/markdown-it-plugin) you want to use and push them to the `plugins` `Array`. If you have `options` for a plugin, add this plugin followed by its `options` to another `Array` as you would pass them to the original [markdown-it plugin](https://www.npmjs.com/browse/keyword/markdown-it-plugin). 
 
 Then pass the metalsmith-markdown-it plugin to [Metalsmith](https://github.com/segmentio/metalsmith) with the `use` method:
 
