@@ -1,4 +1,4 @@
-# metalsmith-markdown-it
+# metalsmith-markdown-it-easy
 
 A __[Metalsmith](https://github.com/segmentio/metalsmith)__ plugin to convert markdown files using __[markdown-it](https://github.com/markdown-it/markdown-it/)__, an easy extendable Node.js module for multimarkdown features.
 
@@ -8,7 +8,7 @@ Inspired by [metalsmith-markdown](https://github.com/segmentio/metalsmith-markdo
 ## Install
 
 ```bash
-npm install metalsmith-markdown-it
+npm install metalsmith-markdown-it-easy
 ```
 
 
@@ -16,22 +16,22 @@ npm install metalsmith-markdown-it
 
 ### Simple without options
 
-Pass the metalsmith-markdown-it plugin to [Metalsmith](https://github.com/segmentio/metalsmith) with the `use` method:
+Pass the metalsmith-markdown-it-easy plugin to [Metalsmith](https://github.com/segmentio/metalsmith) with the `use` method:
 
 ```js
 var MetalSmith = require('metalsmith');
-var markdownIt = require('metalsmith-markdown-it');
+var markdownIt = require('metalsmith-markdown-it-easy');
 
 MetalSmith.use(markdownIt());
 ```
 
 ### With options
 
-Pass `options` to the metalsmith-markdown-it plugin as you would pass them to [markdown-it](https://github.com/markdown-it/markdown-it/). Then pass the metalsmith-markdown-it plugin to [Metalsmith](https://github.com/segmentio/metalsmith) with the `use` method:
+Pass `options` to the metalsmith-markdown-it-easy plugin as you would pass them to [markdown-it](https://github.com/markdown-it/markdown-it/). Then pass the metalsmith-markdown-it-easy plugin to [Metalsmith](https://github.com/segmentio/metalsmith) with the `use` method:
 
 ```js
 var MetalSmith = require('metalsmith');
-var markdownIt = require('metalsmith-markdown-it');
+var markdownIt = require('metalsmith-markdown-it-easy');
 
 metalsmith.use(markdownIt({
     html: true,
@@ -44,15 +44,15 @@ Please refer to [markdown-it](https://github.com/markdown-it/markdown-it/) for s
 
 ### With options and markdown-it plugins/extensions
 
-Pass `options` to the metalsmith-markdown-it plugin as you would pass them to [markdown-it](https://github.com/markdown-it/markdown-it/). 
+Pass `options` to the metalsmith-markdown-it-easy plugin as you would pass them to [markdown-it](https://github.com/markdown-it/markdown-it/). 
 
 Add another key `plugins` to the `options`. Require the [markdown-it plugins](https://www.npmjs.com/browse/keyword/markdown-it-plugin) you want to use and push them to the `plugins` `Array`. If you have `options` for a plugin, add this plugin followed by its `options` to another `Array` as you would pass them to the original [markdown-it plugin](https://www.npmjs.com/browse/keyword/markdown-it-plugin). 
 
-Then pass the metalsmith-markdown-it plugin to [Metalsmith](https://github.com/segmentio/metalsmith) with the `use` method:
+Then pass the metalsmith-markdown-it-easy plugin to [Metalsmith](https://github.com/segmentio/metalsmith) with the `use` method:
 
 ```js
 var MetalSmith = require('metalsmith');
-var markdownIt = require('metalsmith-markdown-it');
+var markdownIt = require('metalsmith-markdown-it-easy');
 var markdownItPlugin = require('some markdown-it plugin');
 var markdownItPluginWithOptions = require('some markdown-it plugin with options');
 
