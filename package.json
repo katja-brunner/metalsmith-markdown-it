@@ -1,23 +1,23 @@
 {
-  "_from": "metalsmith-markdown-it-easy@0.1.0",
-  "_id": "metalsmith-markdown-it-easy@0.1.0",
+  "_from": "metalsmith-markdown-it-easy@1.0.0",
+  "_id": "metalsmith-markdown-it-easy@1.0.0",
   "_inBundle": false,
   "_location": "/metalsmith-markdown-it-easy",
   "_phantomChildren": {},
   "_requested": {
     "type": "version",
     "registry": true,
-    "raw": "metalsmith-markdown-it-easy@0.1.0",
+    "raw": "metalsmith-markdown-it-easy@1.0.0",
     "name": "metalsmith-markdown-it-easy",
     "escapedName": "metalsmith-markdown-it-easy",
-    "rawSpec": "0.1.0",
+    "rawSpec": "1.0.0",
     "saveSpec": null,
-    "fetchSpec": "0.1.0"
+    "fetchSpec": "1.0.0"
   },
   "_requiredBy": [
     "/"
   ],
-  "_spec": "0.1.0",
+  "_spec": "1.0.0",
   "bugs": {
     "url": "https://github.com/katja-brunner/metalsmith-markdown-it-easy.git/issues"
   },
