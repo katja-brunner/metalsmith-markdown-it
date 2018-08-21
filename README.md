@@ -70,6 +70,7 @@ Please refer to [markdown-it](https://github.com/markdown-it/markdown-it/) for s
 
 Please refer to [markdown-it-plugins list](https://www.npmjs.com/browse/keyword/markdown-it-plugin) for supported plugins and their options.
 
+
 ### Overwrite renderer rules
 
 Pass `options` to the metalsmith-markdown-it-easy plugin as you would pass them to [markdown-it](https://github.com/markdown-it/markdown-it/). 
